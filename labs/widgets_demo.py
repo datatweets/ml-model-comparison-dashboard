@@ -7,6 +7,7 @@ name = st.text_input("Enter your name:")
 if name:
     st.write(f"Hello, {name}!")
 
+
 # Number input
 age = st.number_input("Enter your age:", min_value=0, max_value=100, value=25)
 st.write(f"You are {age} years old")
